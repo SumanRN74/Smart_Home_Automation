@@ -89,8 +89,7 @@ Wire each switch **between the pin and GND**.
 
 ## ☁️ Arduino IoT Cloud Setup (Thing + Variables)
 
-  1.download Arduino IoT Cloud Remote for mobile: https://play.google.com/store/apps/details?id=cc.arduino.cloudiot
-  
+1. download Arduino IoT Cloud Remote for mobile: https://play.google.com/store/apps/details?id=cc.arduino.cloudiot 
 2. Create a **Thing**: add your **Device** (ESP8266) to the Thing. You’ll get a **Device ID** and **Secret Device Key**.  
 3. Add **4 Cloud variables** (type **Switch** / boolean, read‑write):  
    - `switch1`, `switch2`, `switch3`, `switch4`  
