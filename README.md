@@ -158,4 +158,10 @@ Arduino Cloud now supports **Google Home** directly. Create **Smart Home‑compa
 ## 🙌 Credits
 - Hardware & sketch: your project with NodeMCU + Arduino IoT Cloud
 - Voice control: Arduino Cloud ↔ Google Home integration
+  
+
+
+## 👨‍💻 Author
+**Suman R N**  
+📧 Contact: sumansurn@gmail.com  
 
