@@ -28,30 +28,6 @@ You’ll get **three control modes**:
 
 ---
 
-## 🗂 Repository Structure
-```
-.
-├─ /assets/                      # put all images here
-│  ├─ block-diagram.png
-│  ├─ wiring-topology.jpg
-│  ├─ dashboard.png
-│  └─ google-home.png
-├─ /src/
-│  └─ nodemcu_4relay_iotcloud.ino
-└─ README.md
-```
-> Replace image file names with yours, then update the links in this README.
-
----
-
-## 🧠 System Diagram (add your images)
-- **Block Diagram:** ![Block Diagram](assets/block-diagram.png)
-- **Wiring Topology:** ![Wiring](assets/wiring-topology.jpg)
-- **Cloud Dashboard:** ![Dashboard](assets/dashboard.png)
-- **Google Home:** ![Google Home](assets/google-home.png)
-
----
-
 ## 🔌 Pinout & Wiring
 
 ### Relay Channels → NodeMCU
@@ -175,16 +151,6 @@ Arduino Cloud now supports **Google Home** directly. Create **Smart Home‑compa
 ## 🔒 Safety Notes
 - When switching **AC mains**, use rated relays and proper insulation. Add snubber/RC networks for inductive loads (motors, pumps).  
 - Use separate supplies for NodeMCU and relays if you see brownouts (ground must be common).
-
----
-
-## 📸 Add Your Photos
-Drop your pictures into `/assets` and update the image links above: block diagram, wiring photos, dashboard, and Google Home screenshots.
-
----
-
-## 📄 License
-MIT (or your preferred license)
 
 ---
 
