@@ -89,21 +89,21 @@ Wire each switch **between the pin and GND**.
 
 ## ☁️ Arduino IoT Cloud Setup (Thing + Variables)
 
-1.download Arduino IoT Cloud Remote for mobile: https://play.google.com/store/apps/details?id=cc.arduino.cloudiot
-1. Create a **Thing**: add your **Device** (ESP8266) to the Thing. You’ll get a **Device ID** and **Secret Device Key**.  
-2. Add **4 Cloud variables** (type **Switch** / boolean, read‑write):  
+  1.download Arduino IoT Cloud Remote for mobile: https://play.google.com/store/apps/details?id=cc.arduino.cloudiot
+2. Create a **Thing**: add your **Device** (ESP8266) to the Thing. You’ll get a **Device ID** and **Secret Device Key**.  
+3. Add **4 Cloud variables** (type **Switch** / boolean, read‑write):  
    - `switch1`, `switch2`, `switch3`, `switch4`  
    Set **Update mode**: *On change*.  
-3. (Optional) Create a **Dashboard** with 4 Switch widgets linked to the variables.
-4. Copy credentials into the sketch:
+4. (Optional) Create a **Dashboard** with 4 Switch widgets linked to the variables.
+5. Copy credentials into the sketch:
    ```cpp
    const char DEVICE_LOGIN_NAME[] = "YOUR_DEVICE_ID";
    const char DEVICE_KEY[]        = "YOUR_SECRET_DEVICE_KEY";
    const char SSID[]              = "YOUR_WIFI_SSID";
    const char PASS[]              = "YOUR_WIFI_PASSWORD";
    ```
-5. **Upload** the sketch. Open Serial Monitor @ **9600** baud to watch Cloud connection logs.  
-6. Toggle the **Dashboard** switches and verify the relays click accordingly.
+6. **Upload** the sketch. Open Serial Monitor @ **9600** baud to watch Cloud connection logs.  
+7. Toggle the **Dashboard** switches and verify the relays click accordingly.
 
 ---
 
